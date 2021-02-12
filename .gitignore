@@ -1,7 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+**/*.js
+/*.js
+node_modules
+build
+/src/react-app-env.d.ts
+/src/reportWebVitals.ts
 /.pnp
 .pnp.js
 
